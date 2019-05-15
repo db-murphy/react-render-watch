@@ -19,7 +19,7 @@ export default App;
 
 ```
 
-or
+or:
 
 ```javascript
 import reactRenderWatch from 'react-render-watch';
