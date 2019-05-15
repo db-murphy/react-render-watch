@@ -8,7 +8,7 @@ const getTime = () => {
     return time;
 }
 
-const watch = (target) => {
+const renderLogger = (target) => {
     let render = target.prototype.render;
 
     target.prototype.render = function() {
@@ -17,4 +17,6 @@ const watch = (target) => {
     }
 }
 
-export default  watch;
+export { renderLogger };
+
+export default renderLogger;

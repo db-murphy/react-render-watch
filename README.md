@@ -5,7 +5,7 @@
 
 ## Usage
 ```javascript
-import reactWatchRender from 'react-watch-render';
+import { renderLogger } from 'react-watch-render';
 
 class App extends Component {
     render () {
@@ -14,7 +14,7 @@ class App extends Component {
         );
     }
 };
-reactWatchRender(App);
+renderLogger(App);
 export default App;
 
 ```
@@ -22,9 +22,9 @@ export default App;
 or:
 
 ```javascript
-import reactWatchRender from 'react-watch-render';
+import { renderLogger } from 'react-watch-render';
 
-@reactWatchRender
+@renderLogger
 class App extends Component {
     render () {
         return (
