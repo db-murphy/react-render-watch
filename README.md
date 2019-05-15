@@ -1,11 +1,11 @@
-# Logger for React Components Render
+# Debugger for React Components Render
 
 ## Install
-`npm i --save react-render-logger`
+`npm i --save react-watch-render`
 
 ## Usage
 ```javascript
-import reactRenderWatch from 'react-render-logger';
+import reactWatchRender from 'react-watch-render';
 
 class App extends Component {
     render () {
@@ -14,7 +14,7 @@ class App extends Component {
         );
     }
 };
-reactRenderWatch(App);
+reactWatchRender(App);
 export default App;
 
 ```
@@ -22,9 +22,9 @@ export default App;
 or:
 
 ```javascript
-import reactRenderWatch from 'react-render-logger';
+import reactWatchRender from 'react-watch-render';
 
-@reactRenderWatch
+@reactWatchRender
 class App extends Component {
     render () {
         return (
