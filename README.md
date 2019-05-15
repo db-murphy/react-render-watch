@@ -15,6 +15,7 @@ class App extends Component {
     }
 };
 reactRenderWatch(App);
+export default App;
 
 ```
 
@@ -31,6 +32,7 @@ class App extends Component {
         );
     }
 };
+export default App;
 ```
 
 ## License
