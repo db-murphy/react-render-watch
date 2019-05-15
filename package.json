@@ -1,6 +1,6 @@
 {
     "name": "react-watch-render",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "",
     "main": "dist/react-watch-render.js",
     "module": "dist/react-watch-render.es.js",
@@ -16,7 +16,8 @@
     "keywords": [
         "react",
         "render",
-        "watch"
+        "watch",
+        "logger"
     ],
     "author": "rainbolean@sina.com",
     "license": "ISC",
