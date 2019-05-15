@@ -1,4 +1,4 @@
-# Debugger for React Components Render
+# Logger for React Components Render
 
 ## Install
 `npm i --save react-watch-render`
