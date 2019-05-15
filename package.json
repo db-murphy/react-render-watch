@@ -1,12 +1,12 @@
 {
-    "name": "react-render-watch",
+    "name": "react-render-logger",
     "version": "1.0.0",
     "description": "",
-    "main": "dist/react-render-watch.js",
-    "module": "dist/react-render-watch.es.js",
-    "jsnext:main": "dist/react-render-watch.es.js",
+    "main": "dist/react-render-logger.js",
+    "module": "dist/react-render-logger.es.js",
+    "jsnext:main": "dist/react-render-logger.es.js",
     "scripts": {
-        "uglify": "uglifyjs dist/react-render-watch.js -cm -o dist/react-render-watch.js",
+        "uglify": "uglifyjs dist/react-render-logger.js -cm -o dist/react-render-logger.js",
         "build": "rollup -c && npm run uglify"
     },
     "repository": {
@@ -16,7 +16,6 @@
     "keywords": [
         "react",
         "render",
-        "watch",
         "logger"
     ],
     "author": "rainbolean@sina.com",

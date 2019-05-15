@@ -29,12 +29,12 @@ export default {
     ],
     targets: [{
             format: 'umd',
-            moduleName: 'reactRenderWatch',
-            dest: 'dist/react-render-watch.js',
+            moduleName: 'reactRenderLogger',
+            dest: 'dist/react-render-logger.js',
         },
         {
             format: 'es',
-            dest: 'dist/react-render-watch.es.js'
+            dest: 'dist/react-render-logger.es.js'
         }
     ]
 };
